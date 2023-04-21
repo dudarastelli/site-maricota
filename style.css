@@ -1,4 +1,50 @@
-header {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho {
     background-color: blueviolet;
     color: white;
+    display: flex
+}
+
+.cabecalho {
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-shampoo {
+    width: 8%;
+}
+
+.cabecalho-lista-item {
+    display: inline-block
+}
+
+.cabecalho-lista-item{
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.shampoo {
+    background-image: linear-gradient(blueviolet, pink);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.shampoo-conteudo {
+    width: 35%;
+}
+
+.shampoo-titulo {
+    padding: 24px 0;
 }
