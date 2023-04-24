@@ -48,3 +48,16 @@ body{
 .shampoo-titulo {
     padding: 24px 0;
 }
+
+.shampoo-venda-todos{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.shampoo-venda-titulo {
+    text-align: center;
+    padding: 50px 0;
+    color: black
+}
+
